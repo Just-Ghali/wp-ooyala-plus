@@ -3,10 +3,10 @@
  * Plugin Name: Ooyala Video Plus
  * Description: Extends feature functionality off <a href="http://www.ooyala.com/wordpressplugin/">Ooyala Video</a> to include Youtube videos, monetizable and async shortcodes, appending labels to video uploads.
  * Version: 1.0
- * Author: Mahmoud Ghali ( Ghali™ ) , Postmedia Network Inc.
+ * Author: Mahmoud Ghali ( Ghali™ )
  * License: MIT
  *
- * Contact mail: mghali@postmedia.com
+ * Contact mail: mahmoud.ghali@gmail.com
  *
  * Note: this Plugin is based on
 
