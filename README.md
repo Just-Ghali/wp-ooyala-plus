@@ -16,8 +16,13 @@ Browse your Ooyala videos, and easily insert them into your posts and page.
 
 Based on: Ooyala video plugin : http://wordpress.org/extend/plugins/ooyala-video-browser
 
-@Uses Ooyala Async Loader: https://github.com/Just-Ghali/ooyala-async-loader
-@Uses Chosen: https://github.com/harvesthq/chosen
+
+@Uses:
+
+Ooyala Async Loader: https://github.com/Just-Ghali/ooyala-async-loader
+
+Chosen: https://github.com/harvesthq/chosen
+
 
 == Description ==
 Easy embedding of videos for the Ooyala Video Platform.
