@@ -87,7 +87,9 @@ class Ooyala_Plus_Video {
 		// add youtube wp ajax action
 		add_action( 'wp_ajax_ooyala_add_youtube', 	array( &$this, 'ooyala_add_youtube' ) );
 		add_action( 'wp_ajax_ooyala_set_featured_video', array( &$this, 'ooyala_set_featured_video' ) );
-
+		// add ooyala Script
+		wp_enqueue_script( 'ooyala_async_js', $this->plugin_url . 'js/ooyala-async.js', array( 'jquery' ) , '1.0.0' );
+		// add shortcode
 		add_shortcode( 'ooyala', array(&$this, 'shortcode') );
 	}
 
@@ -203,7 +205,7 @@ class Ooyala_Plus_Video {
 					$output .= '<div class="inline-video-title">' . esc_attr( $title ) . '</div>';
 
 				$output .= '</div>';
-			
+
 			}
 
 			$output .= '</div>';
